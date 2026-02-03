@@ -1,0 +1,33 @@
+.nav-header {
+  background: white;
+  padding: 16px 24px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.logo-heading {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.my-orders-text {
+  font-size: 16px;
+  color: #555;
+}
+
+.cart-icon-container {
+  position: relative;
+}
+
+.cart-count-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+
+.cart-count {
+  background: tomato;
+  color: white;
+  border-radius: 50%;
+  padding: 4px 6px;
+  font-size: 12px;
+}

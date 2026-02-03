@@ -1,0 +1,35 @@
+.home-background {
+  background-color: #f7f7f7;
+}
+
+/* Tabs */
+.tab-container {
+  display: flex;
+  overflow-x: auto;
+  border-bottom: 1px solid #ddd;
+  background: white;
+}
+
+.each-tab-item {
+  list-style: none;
+  padding: 14px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.active-tab-item {
+  color: #ff6347;
+  border-bottom: 3px solid #ff6347;
+  font-weight: 600;
+}
+
+.tab-category-button {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dishes-list-container {
+  padding: 20px;
+}
